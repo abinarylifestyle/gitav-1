@@ -1,0 +1,108 @@
+/**全局CSS START**/
+*,ul,li{
+	margin: 0;padding:0;list-style-type: none
+}
+*{
+	font-family: "方正中等线","微软雅黑"
+}
+.float-left{
+	float: left
+}
+.float-right{
+	float: right
+}
+.clear{
+	clear: both
+}
+a{
+	text-decoration: none;color:#36B2C5;}
+/**全局CSS END**/
+
+
+/**HEADER START**/
+.header{
+	width: 100%;height: 78px;border-bottom: 1px #eee solid;clear: both
+}
+.header-in{
+	width: 960px;height: 78px;margin: 0 auto;
+}
+.header-in ul{
+	margin-left: 85px
+}
+.header-in ul li{
+	font-size: 20px;margin-right: 60px;line-height: 75px;display: inline;
+}
+.search-form{
+	margin-left: 25px
+}
+.input-style{
+	width: 218px;height: 42px;margin-top: 15px;border-radius: 7px;border: 1px solid #ddd
+}
+.button-style{
+	width: 70px;height: 42px;border: 1px solid #36BDC7;border-radius: 7px;background-color:  #36BDC7;color: #fff;font-size: 18px;
+}
+/**HEADER END**/
+.main{
+	width: 960px;height: auto;margin: 0 auto
+}
+.left-frame{
+	width: 696px;height: auto;margin-right: 10px;
+}
+p.latest{
+	line-height: 44px;font-size: 20px;text-indent: 2em;padding-top: 10px
+}
+.left-frame ul li{
+	float: left;margin-right: 30px;margin-top: 24px
+}
+.left-frame ul li img{
+	border-radius: 6px;border: 1px solid #eee;
+}
+.left-frame ul li p {
+	text-align: center;color: #404040;font-size: 20px
+}
+.left-frame ul li p span{
+	padding-left: 20px;color: #36B2C5
+}
+/**recommend end**/
+.middle-img{
+	width: 662px;height: 106px;margin-top: 24px;background-image: url(../images/banner.png); background-position:76% 33%;;border: 1px solid #eee;border-radius: 5px;
+}
+.select-movie{
+	font-size: 20px;color: #fff;line-height: 110px;padding-left: 50px
+}
+.bianji-selected{
+	width: 159px;height: 50px;border: 2px solid rgba(255,255,255,0.6);border-radius: 5px;color: #fff;font-size: 18px;text-align: center;line-height: 50px;margin-top: 30px;margin-left:140px
+}
+p.down-p{
+	line-height: 78px
+}
+.right-continer{
+	width: 252px;height: auto;border: 1px solid #eee;border-radius: 7px
+}
+.right-continer ul{
+	margin-left: 20px;margin-top: 35px;margin-bottom: 35px
+}
+.right-continer ul li{
+	margin-top: 20px;width: 232px;height: 150px
+}
+.right-continer ul li img{
+	border-radius: 6px;border: 1px solid #eee;
+}
+p.num{
+	padding-right: 6px
+}
+.movie-info{
+	width: 80px;height: 150px;padding-left: 10px
+}
+.fanhao{
+	color:#000;padding-top: 40px
+}
+.size{
+	color:#36B2C5;font-size: 15px;line-height: 40px
+}
+p.down{
+	color: #ddd;font-size: 9px;
+}
+p.more-movies{
+	text-align: center;color: #36B2C5;padding-bottom: 30px
+}
